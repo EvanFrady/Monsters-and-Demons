@@ -1,0 +1,13 @@
+/*
+This is an example of how to use the image sprite in your own CSS files
+*/
+.monsters {
+	background-image: url('Monsters.sprite.png');
+	background-repeat: no-repeat;
+	display: inline-block;
+}
+.monsters.enemies {
+	width: 320px;
+	height: 950px;
+	background-position: -10px -10px;
+}
